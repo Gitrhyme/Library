@@ -9,58 +9,63 @@
 </head>
 
 <body>
-    <h1>LibGen</h1>
+    <div>
+        <header class="headerName">
+            <h1>LibGen</h1>
+        </header>
 
-    <h1 class="book-shelf-title">Bookshelf</h1>
+        <div class="bookFormContainer">
 
-    <div class="bookFormContainer">
-        <button id="addBookButton" class="addBook">Add Book</button>
+            <h1 class="book-shelf-title">Bookshelf</h1>
+
+            <button id="addBookButton" class="addBook">Add Book</button>
 
 
-        <form id="bookForm" class="bookFormSheet">
-            <div class="input-boxes">
-                <div>
-                    <label for="title">title:</label>
-                    <input type="text" id="title" required>
+            <form id="bookForm" class="bookFormSheet">
+                <div class="input-boxes">
+                    <div>
+                        <label for="title">title:</label>
+                        <input type="text" id="title" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="author">author:</label>
+                        <input type="text" id="author" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="pages">pages:</label>
+                        <input type="text" id="pages" required>
+                    </div>
                 </div>
 
                 <br>
 
-                <div>
-                    <label for="author">author:</label>
-                    <input type="text" id="author" required>
+                <div class="readBook">
+                    <p>Did you read?</p>
+
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="choice-radio" id="yes" value="Yes">
+
+                    <label for="no">No</label>
+                    <input type="radio" name="choice-radio" id="no" value="No">
                 </div>
 
                 <br>
 
-                <div>
-                    <label for="pages">pages:</label>
-                    <input type="text" id="pages" required>
+                <div class="submitBook">
+                    <input type="submit">
                 </div>
-            </div>
 
-            <br>
+            </form>
+        </div>
 
-            <div class="readBook">
-                <p>Did you read?</p>
-
-                <label for="yes">Yes</label>
-                <input type="radio" name="choice-radio" id="yes" value="Yes">
-
-                <label for="no">No</label>
-                <input type="radio" name="choice-radio" id="no" value="No">
-            </div>
-
-            <br>
-
-            <div class="submitBook">
-                <input type="submit">
-            </div>
-
-        </form>
+        <div id="bookContainer" class="bookshelf"></div>
     </div>
-
-    <div id="bookContainer" class="bookshelf"></div>
 
 
 </body>
