@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>LibGen</h1>
+
+    <h1 class="book-shelf-title">Bookshelf</h1>
+
+    <div class="bookFormContainer">
+        <button id="addBookButton" class="addBook">Add Book</button>
+
+
+        <form id="bookForm" class="bookFormSheet">
+            <div class="input-boxes">
+                <div>
+                    <label for="title">title:</label>
+                    <input type="text" id="title" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="author">author:</label>
+                    <input type="text" id="author" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pages">pages:</label>
+                    <input type="text" id="pages" required>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="readBook">
+                <p>Did you read?</p>
+
+                <label for="yes">Yes</label>
+                <input type="radio" name="choice-radio" id="yes" value="Yes">
+
+                <label for="no">No</label>
+                <input type="radio" name="choice-radio" id="no" value="No">
+            </div>
+
+            <br>
+
+            <div class="submitBook">
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
+
+    <div id="bookContainer" class="bookshelf"></div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>

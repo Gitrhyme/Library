@@ -1,0 +1,81 @@
+.book-shelf-title {
+    font-size: 40px;
+    text-align: center;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.bookFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.addBook {
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.input-boxes {
+    display: flex;
+    justify-items: center;
+    font-weight: bold;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.readBook {
+    width: 100px;
+    height: 80px;
+    align-self: center;
+}
+
+.submitBook {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.bookFormSheet {
+    display: none;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 40px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.book-card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 150px;
+}
+
+.book-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
